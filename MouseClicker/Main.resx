@@ -117,13 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>138, 17</value>
-  </metadata>
-  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>138, 17</value>
-  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICACAAAAAQAwAQAAFgAAACgAAAAgAAAAQAAAAAEAAQAAAAAAgAAAAAAAAAAAAAAAAgAAAAIA
+        AAAAAAAA////AAAAAAAAAAAAABwAAAAcAAAAOAAAADgAAABwAAAAcAAAAOAAAEDgAABhwAAAccAAAHuA
+        AAB/gAAAf/8AAH/+AAB//AAAf/gAAH/wAAB/4AAAf8AAAH+AAAB/AAAAfgAAAHwAAAB4AAAAcAAAAGAA
+        AABAAAAAAAAAAAAAAAAAAAAA///////j/v//wc7n/8H23/+D+r//g/1//wfCh38H/X8+D/q/Hg/23wwf
+        zucEH/7/AD/+/wAAP/8AAH//AAD//wAB//8AA///AAf//wAP//8AH///AD///wB///8A////Af///wP/
+        //8H////D////x////8/////f/////////8=
+</value>
+  </data>
 </root>

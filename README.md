@@ -1,2 +1,4 @@
 # MouseClicker
-A small program for fast-click and other operation(Win32)
+一个简单的键盘钩子小程序，目的是实现鼠标连点。
+
+原来的计划中包含鼠标位置记忆等功能，等待下次更新会完善（遥遥无期

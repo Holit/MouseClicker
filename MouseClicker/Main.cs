@@ -12,7 +12,7 @@ using System.Windows.Forms;
 namespace MouseClicker
 {
 
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
         
         KeyboardHook keyboardHook;
@@ -79,54 +79,8 @@ namespace MouseClicker
                 WinApi.BlockInput(false);
             }
         }
-        //private void hook_Mouse_Event(object sender, MouseEventArgs e) 
-        //{
-        //    if (CmdKeyPressed == (int)Keys.NumPad1 && (int)System.Windows.Forms.Control.ModifierKeys == (int)Keys.Alt)
-        //    {
-        //        /// <summary>
-        //        /// 用于指示击键的指令：
-        //        /// -1：左键
-        //        /// 0：中键（目前不支持）
-        //        /// 1：右键
-        //        /// </summary>
-        //        int CmdKey = 0;
-        //        if (e.Button == MouseButtons.Left)
-        //        {
-        //            CmdKey = -1;
-        //        }
-        //        else if(e.Button == MouseButtons.Right)
-        //        {
-        //            CmdKey = 1;
-        //        }
-        //        else if(e.Button == MouseButtons.Middle)
-        //        {
-        //            CmdKey = 0;
-        //        }
-        //        else if(e.Button == MouseButtons.None)
-        //        {
-        //            //do nothing
-        //        }
-        //        else
-        //        {
-        //            throw new Exception("错误的鼠标击键参数");
-        //        }
-        //
-        //        /// <summary>
-        //        /// 用于指示特殊击键指令
-        //        /// 1：按下
-        //        /// 2：抬起：
-        //        /// 3：按下并抬起
-        //        int Externs = 0;
-        //
-        //        if (e.Clicks == 1)
-        //        {
-        //
-        //        }
-        //        MouseSteps[0] = new MouseStep(e.X, e.Y, CmdKey, e.Clicks);
-        //    }
-        //}
 
-        public Form1()
+        public Main()
         {
             InitializeComponent();
         }
@@ -163,16 +117,6 @@ namespace MouseClicker
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Jerry Kits 组件\n由Jerry个人开发\n联系:gao1021229073@163.com");
         }
     }
 }
